@@ -11,21 +11,21 @@ lazypic 에서 작업된 데이터를 다운로드 받기 위해서는 먼저 �
 - 영문 Name
 - E-mail
 
-계정 발급이 끝나면, 아래 총 4개 항목의 메일을 전송합니다.
+lazypic 관리자가 계정 발급이 끝나면, 총 4개 항목의 메일을 전송하게 됩니다.
 - 콘텐츠를 다운로드 받을 수 있는 URL
 - ID
 - 최초 PW
 - MPA 2중인증을 위한 QR코드
 
-#### 콘텐츠 다운로드 URL
+### 콘텐츠 다운로드 URL
 아래 URL을 통해서 콘텐츠를 다운로드 받게 되며 clientname 대신 여러분의 회사명이 들어가게 됩니다.
 
 https://lazypic.signin.aws.amazon.com/console/s3/?bucket=lazypic-clientname
 
-#### 최초 패스워드
+### 최초 패스워드
 최초 1회 접근 패스워드를 알려드리며, 이후 직접 사용할 패스워드로 변경하셔야 합니다.
 
-#### MPA 멀티팩터인증
+### MPA 멀티팩터인증
 ![authentiator](https://lh3.googleusercontent.com/SClWEmbk7QxxuKiWshok2T45vAwEQYCduisnnGORqrha7KfpQsvFZa0xac_jyj_tE9Mn=w720-h310)
 
 lazypic은 로그인시 멀티팩터인증을 사용합니다.

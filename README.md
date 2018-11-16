@@ -48,6 +48,9 @@ lazypic은 로그인시 멀티팩터인증을 사용합니다. 콘텐츠를 다�
 
 등록이 정상적으로 되면, clientname대신 여러분의 계정이름이 보이며 로그인시 입력해야 하는 6자리 숫자가 생성되기 시작합니다.
 
+## 접속하기
+
+https://lazypic.signin.aws.amazon.com/console/s3/?bucket=lazypic-clientname 에 접속합니다.
 
 ![process](https://user-images.githubusercontent.com/1149996/48600646-10ca2800-e9b0-11e8-9da1-f9b274b6114e.png)
 

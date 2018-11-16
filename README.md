@@ -31,7 +31,7 @@ admin@lazypic.org 메일로 보내주신 영문이름이 ID가 됩니다.
 ### MPA 멀티팩터인증 QR코드
 ![authentiator](https://lh3.googleusercontent.com/SClWEmbk7QxxuKiWshok2T45vAwEQYCduisnnGORqrha7KfpQsvFZa0xac_jyj_tE9Mn=w720-h310)
 
-lazypic은 로그인시 멀티팩터인증을 사용합니다.
+lazypic은 로그인시 멀티팩터인증을 사용합니다. 콘텐츠를 다운로드 하기 전에 ID, PW 이외에 핸드폰에서 생성되는 6자리 숫자도 같이 입력해야 로그인 할 수 있습니다.
 
 이 기능을 사용하기 위해서는 데이터를 다운로드 받는 사람 핸드폰에 Google Authenticator 앱을 먼저 설치 해야합니다.
 

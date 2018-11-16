@@ -1,30 +1,34 @@
 # Data Transfer
-lazypic은 고객의 데이터를 AWS 서비스를 이용하여 데이터 전송합니다. 이 문서에서는 회사 이름 대신 clientname 이라는 문자를 대신 사용하였습니다.
+lazypic은 고객의 데이터를 AWS 서비스를 이용하여 데이터 전송합니다.
+
+> 이 문서에서는 회사 이름 대신 clientname 이라는 문자를 대신 사용하였습니다.
 
 ## 데이터 다운로드
 
-lazypic에서 작업된 데이터를 다운로드 받기 위해서는 먼저 다운로드 받을 수 있는 계정등록이 필요합니다.
+lazypic 에서 작업된 데이터를 다운로드 받기 위해서는 먼저 다운로드 받을 수 있는 계정등록이 필요합니다.
 콘텐츠를 다운로드 하는 분이 2명이상이라면 각각 계정을 등록해야합니다.
-아래 정보를 영문으로 admin@lazypic.org로 보내주세요.
-- Name
+아래 정보를 admin@lazypic.org로 보내주세요.
+- 영문 Name
 - E-mail
 
-계정 발급이 끝나면, 아래 항목이 들어있는 메일을 전송합니다.
+계정 발급이 끝나면, 아래 총 4개 항목의 메일을 전송합니다.
 - 콘텐츠를 다운로드 받을 수 있는 URL
-- 최초 접근 패스워드
+- ID
+- 최초 PW
 - MPA 2중인증을 위한 QR코드
 
 #### 콘텐츠 다운로드 URL
+아래 URL을 통해서 콘텐츠를 다운로드 받게 되며 clientname 대신 여러분의 회사명이 들어가게 됩니다.
 
 https://lazypic.signin.aws.amazon.com/console/s3/?bucket=lazypic-clientname
 
-#### 최초 접근 패스워드
+#### 최초 패스워드
 최초 1회 접근 패스워드를 알려드리며, 이후 직접 사용할 패스워드로 변경하셔야 합니다.
 
-#### MPA 2중인증
+#### MPA 멀티팩터인증
 ![authentiator](https://lh3.googleusercontent.com/SClWEmbk7QxxuKiWshok2T45vAwEQYCduisnnGORqrha7KfpQsvFZa0xac_jyj_tE9Mn=w720-h310)
 
-lazypic은 로그인시 멀티팩트인증을 사용합니다.
+lazypic은 로그인시 멀티팩터인증을 사용합니다.
 
 이 기능을 사용하기 위해서는 데이터를 다운로드 받는 사람 핸드폰에 Google Authenticator 앱을 먼저 설치 해야합니다.
 

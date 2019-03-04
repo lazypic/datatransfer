@@ -42,7 +42,7 @@ lazypic은 로그인시 멀티팩터인증을 사용합니다. 콘텐츠를 다�
 
 ![qrcod](https://m.media-amazon.com/images/G/01/DeveloperBlogs/AmazonDeveloperBlogs/legacy/6a0148c71fb71b970c014e6015c37a970c-800wi._CB520194804_.png)
 
-위 이미지처럼 보안인증번호 발급을 위한 QR코드를 메일로 같이 보내리게 되는데 Google Authenticator App에 등록해주세요.
+위 이미지처럼 보안인증번호 발급을 위한 QR코드를 메일로 같이 발송합니다. 받은 QR코드를 Google Authenticator App에 등록해주세요.
 
 ![googel_authenticator](https://user-images.githubusercontent.com/1149996/48599454-13764e80-e9ab-11e8-91cd-1ea993bb4475.png)
 

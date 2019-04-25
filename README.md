@@ -54,6 +54,11 @@ https://lazypic.signin.aws.amazon.com/console/s3/?bucket=lazypic-clientname 에 
 
 ![filebrowser](https://user-images.githubusercontent.com/1149996/48600337-c7c5a400-e9ae-11e8-8564-75fb37a83607.png)
 
+## 프로젝트의 종료
+- 프로젝트가 종료되면 사용자 접근계정이 삭제됩니다.
+- 데이터는 1년간 AWS Glacier 서비스를 이용해서 보관됩니다.
+- 데이터 복구시 48시간 이내에 복구가 가능합니다.
+- 데이터 필요시 ID를 재발급합니다.
 
 ## 규정준수 Reference
 - https://aws.amazon.com/ko/compliance/programs/

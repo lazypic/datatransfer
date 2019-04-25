@@ -6,24 +6,22 @@ lazypic은 AWS 서비스를 이용하여 고객 데이터 전송합니다.
 ## 데이터 다운로드
 
 lazypic 에서 작업된 데이터를 다운로드 받기 위해서는 먼저 다운로드 받을 수 있는 계정등록이 필요합니다.
-콘텐츠를 다운로드 하는 사람이 2명 이상이라면 각각 계정을 등록해야합니다.
+콘텐츠를 다운로드 하는 사람의 이메일을 등록해야합니다.
 아래 정보를 admin@lazypic.org로 보내주세요.
-- 영문 Name
 - E-mail
 
-lazypic 관리자가 계정 발급이 끝나면, 총 4개 항목이 포함된 답장메일을 받게 됩니다.
+lazypic 관리자가 계정 발급이 끝나면, 총 3개 항목이 포함된 답장메일을 받게 됩니다.
 - 콘텐츠를 다운로드 받을 수 있는 URL
-- ID
 - 최초 PW
 - MPA 멀티팩터인증 QR코드
 
 ### 콘텐츠 다운로드 URL
-아래 URL을 통해서 콘텐츠를 다운로드 받게 되며 clientname 대신 여러분의 회사명이 들어가게 됩니다.
+아래 URL을 통해서 콘텐츠를 다운로드 받게 되며 project-code 형태의 저장소에 접근할 수 있습니다.
 
-https://lazypic.signin.aws.amazon.com/console/s3/?bucket=lazypic-clientname
+https://lazypic.signin.aws.amazon.com/console/s3/?bucket=project-code
 
 ### ID
-admin@lazypic.org 메일로 보내주신 영문이름이 ID가 됩니다.
+admin@lazypic.org 메일로 보내주신 이메일이 접근할 수 있는 ID가 됩니다.
 
 ### 최초 패스워드
 최초 1회 접근 패스워드를 알려드리며, 이후 직접 사용할 패스워드로 변경하셔야 합니다.
